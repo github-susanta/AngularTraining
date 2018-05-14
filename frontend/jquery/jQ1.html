@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<body>
+    <button>Send an HTTP GET request to a page and get the result back</button>
+    <div id="display"></div>
+</body>
+
+<script>
+    $(document).ready(function () {
+        $("button").click(function () {
+            $.get("http://localhost:3000/api/courses", function (data, status) {
+                // alert("Data: " + data + "\nStatus: " + status);
+                $('#display').text(data[0].name)
+            });
+        });
+    });
+</script>
+
+</html>

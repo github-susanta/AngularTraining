@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+<script src="controller.js"></script>
+
+<body ng-app="myApp">
+
+  <div ng-controller="myCtrl">
+    <h1>{{message}}</h1>
+    <li ng-repeat="item in message">{{item.name}}</li>
+  </div>
+  <div custom-directive></div>
+  <div custom-directive2></div>
+
+  <a href='jquery/jQ1.html'>jQuery</a>
+
+</body>
+
+
+
+</html>

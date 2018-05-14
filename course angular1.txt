@@ -1,0 +1,17 @@
+day1
+	DOM
+	Dom manupulation
+	HTML5
+	Basic Javascript
+	basic jquery
+	Basic Bootstrap
+Day2
+	Bootstrap Grid System
+	media query
+	responsive site
+
+Day3
+	DOm manupulation
+	jquery
+	jquery ajax
+	Single page application
